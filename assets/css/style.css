@@ -111,18 +111,20 @@ header {
     min-height: 70vh;
 }
 .title-inicio{
-    width: 500px;
+    width: 533px;
 }
 .title-inicio p{
     font-size: 43px;
     color: #ffffff;
     font-weight: 700;
     margin: 0;
+    letter-spacing: 3px;
 }
 .title-inicio span{
     font-size: 45px;
     color: rgb(5, 158, 185);
     font-weight: 700;
+    letter-spacing: 3px;
 }
 .subti-inicio{
     width: 410px;
@@ -225,6 +227,8 @@ header {
 }
 .text-accent {
     color: var(--azul-acent);
+    font-weight: 700;
+    font-size: 45px;
 }
 .bi {
     color: var(--azul-acento);
