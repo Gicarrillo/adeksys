@@ -367,3 +367,158 @@ footer{
     text-decoration: none;
 }
 
+
+/* Sección de Contacto */
+.cta-section {
+    background-color: #000d2a; /* Azul casi negro como en la imagen */
+    border-top: 1px solid rgba(255,255,255,0.05); /* Separación sutil */
+}
+
+/* Tipografía de la columna derecha */
+.cta-title {
+    font-size: 4rem; /* Texto muy grande para impacto */
+    line-height: 1.1;
+    letter-spacing: -1px;
+}
+
+.cta-title .text-highlight {
+    color: #4da6ff; /* Azul claro resaltado */
+}
+
+.cta-text {
+    font-size: 1.15rem;
+    max-width: 550px;
+    line-height: 1.6;
+}
+
+/* Tarjeta de la columna izquierda */
+.cta-card {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.15); /* Borde delgado y sutil */
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.cta-card h4 {
+    font-size: 1.3rem;
+}
+
+/* Botón personalizado de WhatsApp */
+.cta-card .btn-whatsapp-cta {
+    background-color: var(--whatsapp) !important; /* Usamos la variable verde que ya tenías en tu :root */
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    padding: 12px 30px !important;
+    border-radius: 10px !important;
+    font-size: 1.1rem !important;
+    text-decoration: none !important; 
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 10px !important;
+    border: none !important;
+    transition: all 0.3s ease;
+}
+
+/* Forzamos que el ícono de Bootstrap herede el color blanco */
+.cta-card .btn-whatsapp-cta i {
+    color: #ffffff !important;
+}
+
+.cta-card .btn-whatsapp-cta:hover {
+    background-color: #1ebc5a !important; /* Un verde ligeramente más oscuro */
+    color: #ffffff !important;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(37, 211, 102, 0.25) !important;
+}
+
+.btn-whatsapp-cta:hover {
+    background-color: #16a349; /* Verde más oscuro al pasar el cursor */
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(28, 203, 91, 0.25);
+}
+
+/* Responsividad para pantallas móviles y tablets */
+@media (max-width: 992px) {
+    .cta-title {
+        font-size: 2.8rem;
+    }
+    
+    .cta-card {
+        padding: 3rem 2rem !important;
+    }
+    
+    /* En móvil, centramos el texto de la derecha para equilibrar */
+    .cta-section .col-lg-7 {
+        text-align: center;
+    }
+    
+    .cta-text {
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg-blue-dark {
+    background-color: var(--azul-fondo); /* #00123a */
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.bg-blue-dark .subtitulo-sect {
+    color: #ffffff !important;
+}
+
+/* Listas Enriquecidas (Para dar volumen a la información) */
+.custom-list-rich li {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+/* Estilo del contenedor del ícono en fondo BLANCO */
+.bg-white .custom-list-rich i {
+    font-size: 1.5rem;
+    color: var(--azul-acento1); /* Tu azul #024c7e */
+    background: rgba(2, 76, 126, 0.1); /* Fondo azul clarito */
+    padding: 12px 14px;
+    border-radius: 12px;
+    display: inline-flex;
+}
+
+/* Estilo del contenedor del ícono en fondo AZUL */
+.bg-blue-dark .custom-list-rich i {
+    font-size: 1.5rem;
+    color: #80bee7; /* Azul claro brillante */
+    background: rgba(128, 190, 231, 0.15); /* Fondo semitransparente */
+    padding: 12px 14px;
+    border-radius: 12px;
+    display: inline-flex;
+}
+
+/* Textos de la lista */
+.list-text strong {
+    display: block;
+    font-size: 1.15rem;
+    margin-bottom: 4px;
+}
+
+.list-text span {
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
