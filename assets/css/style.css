@@ -308,47 +308,44 @@ footer{
     padding:60px 0 30px;
 }
 
-        .social-icons{
-            display:flex;
-            gap:20px;
-            margin-top:20px;
-        }
+.social-icons{
+    display:flex;
+    gap:20px;
+    margin-top:20px;
+}
 
-        .social-icons a{
-            width:45px;
-            height:45px;
-            border-radius:50%;
-            display:flex;
-            align-items:center;
-            justify-content:center;
-            background:rgba(255,255,255,.1);
-            color:white;
-            text-decoration:none;
-            transition:.4s;
-        }
+.social-icons a{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:rgba(255,255,255,.1);
+    color:white;
+    text-decoration:none;
+    transition:.4s;
+}
 
-        .social-icons a:hover{
-            background:var(--azul2);
-            transform:translateY(-5px);
-        }
-        @media(max-width:768px){
-            .title-inicio p,
-            .title-inicio span{
-                font-size:38px;
-            }
-            .hero-description{
-                width:100%;
-            }
-
-            .hero-img{
-                margin-top:50px;
-            }
-
-            .subtitulo-sect{
-                font-size:34px;
-            }
-
-        }
+.social-icons a:hover{
+    background:var(--azul2);
+    transform:translateY(-5px);
+}
+@media(max-width:768px){
+    .title-inicio p,
+    .title-inicio span{
+        font-size:38px;
+    }
+    .hero-description{
+        width:100%;
+    }
+    .hero-img{
+        margin-top:50px;
+    }
+    .subtitulo-sect{
+        font-size:34px;
+    }
+}
 .whatsapp-float {
     position: fixed;
     bottom: 30px;
@@ -366,8 +363,6 @@ footer{
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     text-decoration: none;
 }
-
-
 /* Sección de Contacto */
 .cta-section {
     background-color: #000d2a; /* Azul casi negro como en la imagen */

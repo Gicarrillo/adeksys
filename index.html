@@ -454,25 +454,51 @@
         </div>
     </section>
     <section class="py-4 bg-white">
+        <div class="container">
+            <form action="correo/enviarInfo.php" method="POST" class="p-4 border rounded bg-light" style="max-width: 500px; margin: 0 auto;">
+                
+                <div class="mb-3">
+                    <label class="form-label font-weight-bold">Nombre(s)</label>
+                    <input type="text" name="nombre" class="form-control" placeholder="Ej. Georgina" required>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label font-weight-bold">Apellidos</label>
+                    <input type="text" name="apellidos" class="form-control" placeholder="Ej. Flores Carrillo" required>
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label font-weight-bold">Ingresa tu correo</label>
+                    <input type="email" name="email" class="form-control" placeholder="correo@gmail.com" required>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">Enviar Información</button>
+            </form>
+        </div>
     </section>
+    <!-- <section class="py-4 bg-white">
+        <div class="container">
+            <form action="correo/enviarInfo.php" method="post" class="form form-control">
+                <label>Ingresa tu correo</label>
+                <input type="email" placeholder="correo@gmail.com">
+                <button type="submit" class="btn btn-primary">Enviar Información</button>
+            </form>
+        </div>
+    </section> -->
 </main>
 <section id="contacto" class="cta-section py-5">
         <div class="container py-5">
             <div class="row align-items-center g-5">
-                
                 <!-- Columna Izquierda: Tarjeta de WhatsApp -->
                 <div class="col-lg-5 order-2 order-lg-1">
                     <div class="cta-card text-center p-5">
                         <h4 class="mb-3 text-white fw-semibold">Escríbenos por WhatsApp</h4>
                         <p class="mb-5 text-light opacity-75" style="line-height: 1.6;">Atención rápida y personalizada para resolver tus dudas y comenzar tu proyecto.</p>
-                        
-                        <!-- Nota: El enlace usa el número que aparece en tu imagen -->
                         <a href="https://wa.me/524428678901?text=Hola Adeksys! Me gustaría conocer más sobre sus servicios de consultoría y capacitación." target="_blank" class="btn btn-whatsapp-cta">
                             <i class="bi bi-whatsapp"></i> WhatsApp Adeksys
                         </a>
                     </div>
                 </div>
-
                 <!-- Columna Derecha: Texto Principal -->
                 <div class="col-lg-7 order-1 order-lg-2">
                     <h2 class="cta-title text-white fw-bold mb-4">
@@ -482,7 +508,6 @@
                         Escríbenos por WhatsApp y descubre cómo podemos mejorar la eficiencia, ejecución y competitividad de tu empresa.
                     </p>
                 </div>
-
             </div>
         </div>
     </section>
